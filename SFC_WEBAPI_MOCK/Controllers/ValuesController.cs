@@ -47,7 +47,7 @@ namespace SFC_WEBAPI_MOCK.Controllers
         [HttpPost]
         public IEnumerable<SelectModel> Get(List<int> ids)
         {
-            return Data.Where(m => ids.Contains(m.Id));
+            return Data.Where(m => ids.Contains(m.Id)); 
         }
     }
 }
