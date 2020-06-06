@@ -10,6 +10,8 @@ namespace SFC_WEBAPI_MOCK.Models
 		const int maxPageSize = 50;
 		public int PageNumber { get; set; } = 1;
 
+		public int Sleep { get; set; } = 0;
+
 		private int _pageSize = 10;
 		public int PageSize
 		{

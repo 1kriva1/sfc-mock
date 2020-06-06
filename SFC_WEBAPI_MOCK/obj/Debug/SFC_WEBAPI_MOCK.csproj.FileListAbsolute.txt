@@ -78,7 +78,10 @@ C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\b
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\System.Web.WebPages.Razor.xml
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\Antlr3.Runtime.pdb
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\obj\Debug\SFC_WEBAPI_MOCK.csprojAssemblyReference.cache
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\obj\Debug\SFC_WEBAPI_MOCK.csproj.CopyComplete
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\obj\Debug\SFC_WEBAPI_MOCK.dll
 C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\obj\Debug\SFC_WEBAPI_MOCK.pdb
+C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\System.Web.Cors.dll
+C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\System.Web.Http.Cors.dll
+C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\bin\System.Web.Http.Cors.xml
+C:\Users\andriik\Documents\SFC\SFC_MOCK_WEBAPI\SFC_WEBAPI_MOCK\SFC_WEBAPI_MOCK\obj\Debug\SFC_WEBAPI_MOCK.csprojAssemblyReference.cache
