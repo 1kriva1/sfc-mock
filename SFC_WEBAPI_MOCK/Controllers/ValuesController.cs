@@ -19,6 +19,8 @@ namespace SFC_WEBAPI_MOCK.Controllers
 
         private List<SelectGroupModel> DataGroup = new List<SelectGroupModel>();
 
+        private List<RadioButtonModel> DataRadioButton = new List<RadioButtonModel>();
+
         public ValuesController()
         {
             for (int i = 1; i <= 100; i++)
@@ -35,6 +37,12 @@ namespace SFC_WEBAPI_MOCK.Controllers
                 }
 
                 DataGroup.Add(dataGroup);
+            }
+
+            for (int i = 1; i <= 5; i++)
+            {
+                var radioButton = new RadioButtonModel { Id = i, Value = $"value_{i}", Icon = i == 4 ? "fa fa-star" : string.Empty, IsDefault = i == 2, IsDisabled = i == 3 };
+                DataRadioButton.Add(radioButton);
             }
         }
 
@@ -98,6 +106,15 @@ namespace SFC_WEBAPI_MOCK.Controllers
             res.Content = new StringContent("test", Encoding.UTF8, "text/html");
 
             return res;
+        }
+
+        // GET api/values
+        [HttpGet]
+        [Route("values/radiobutton/sleep/{sleep?}")]
+        public IEnumerable<RadioButtonModel> GetRadioButtonSleep(int sleep = 0)
+        {
+            Thread.Sleep(sleep);
+            return DataRadioButton;
         }
     }
 }

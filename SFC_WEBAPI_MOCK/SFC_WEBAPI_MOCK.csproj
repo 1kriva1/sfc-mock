@@ -137,6 +137,7 @@
     </Compile>
     <Compile Include="Models\PagedList.cs" />
     <Compile Include="Models\QueryStringParameters.cs" />
+    <Compile Include="Models\RadioButtonModel.cs" />
     <Compile Include="Models\SelectGroupModel.cs" />
     <Compile Include="Models\SelectModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
